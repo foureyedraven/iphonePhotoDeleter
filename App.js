@@ -14,6 +14,7 @@ import {
   View,
   Text,
   StatusBar,
+  Button
 } from 'react-native';
 
 import {
@@ -40,7 +41,7 @@ const App = () => {
             <View style={styles.sectionContainer}>
               <Text style={styles.sectionTitle}>Delete Photos Faster</Text>
               <Text style={styles.sectionDescription}>
-                Hit <Text style={styles.highlight}>Get Started</Text> to get started.
+                Swipe up to get started.
               </Text>
             </View>
             <View style={styles.sectionContainer}>
